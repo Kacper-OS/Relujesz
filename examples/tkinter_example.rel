@@ -1,0 +1,8 @@
+uzywaj tkinter jako tk
+
+fr root = tk.Tk()
+root.title("window")
+
+tk.Button(root, text="Button", command=lambda: delulu("test")).pack();
+
+root.mainloop()
